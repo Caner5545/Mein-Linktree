@@ -58,5 +58,11 @@ p {text-align: center;
     
   }
 
+.sps-foto {
+  width: 60px;
+  height: 60px;
+  
+  border-radius: 30px;
+}
 
 
