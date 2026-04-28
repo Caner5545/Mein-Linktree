@@ -30,6 +30,15 @@ h1 { text-align: center;
      font-family: roboto, sans-serif;
    }
 
+h2 { text-align: center;
+   color: white;
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 20px 20px;                  
+  border-radius: 10px;                 
+  display: inline-block;    
+     font-family: roboto, sans-serif;
+   }
+  
 p {text-align: center;
    color: white;
   background-color: rgba(0, 0, 0, 0.5);
