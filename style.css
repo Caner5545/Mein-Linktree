@@ -1,4 +1,18 @@
-/* Grund-Design & Hintergrund */
+.main-wrapper {
+    max-width: 600px;   /* Begrenzt die Breite auf Laptop-Bildschirmen */
+    margin: 0 auto;     /* Zentriert den Inhalt auf dem Bildschirm */
+    padding: 20px;      /* Abstand zum Rand auf dem Handy */
+    display: flex;      /* Hilft beim Ausrichten */
+    flex-direction: column;
+    align-items: center;
+}
+
+/* Wichtig: Damit die Textelemente die 600px voll ausnutzen */
+h1, h2, p {
+    width: 100%;
+    box-sizing: border-box;
+}
+
 body {
     margin: 0;
     padding: 0;
