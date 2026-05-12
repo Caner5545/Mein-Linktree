@@ -103,3 +103,35 @@ h1, h2 {
 .project p a:hover {
     opacity: 0.8;
 }
+
+.button-container {
+    display: flex;
+    gap: 15px;
+    justify-content: center;
+    margin-top: 20px;
+    flex-wrap: wrap; /* Wichtig für die mobile Ansicht */
+}
+
+.project-btn {
+    display: inline-block;
+    padding: 12px 24px;
+    background-color: #222; /* Dunkler Hintergrund */
+    color: white;
+    text-decoration: none;
+    border-radius: 8px;
+    border: 1px solid #444;
+    font-weight: bold;
+    transition: all 0.3s ease;
+}
+
+.project-btn:hover {
+    background-color: #444;
+    border-color: #00ff88; /* Ein dezenter Akzent (z.B. grün) beim Drüberfahren */
+    transform: translateY(-2px); /* Kleiner Hover-Effekt */
+}
+
+.admin-btn {
+    background-color: #1a1a1a;
+    border-style: dashed; /* Optional: Um das Admin-Panel optisch abzugrenzen */
+}
+
